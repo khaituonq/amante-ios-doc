@@ -11,7 +11,7 @@ This app render data from API http://192.168.80.6:3010/v1.0/
 ### Model 
 Create a structure to defined the type of each data
 ```
-// This is a model data of data
+// This is a model data of banner
 
 struct Banner_Raw: Codable {
     let success: Bool
