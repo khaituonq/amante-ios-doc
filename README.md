@@ -2,9 +2,11 @@
 This app render data from API http://192.168.80.6:3010/v1.0/
 
 ## Structure project
-- Model
-- View Model
-- View
+* [Model](#model)
+* [View Model](#view-model)
+* [View](#view)
+* [Package](#package)
+* [Setting](#setting)
 
 ### Model 
 Create a structure to defined the type of each data
@@ -110,3 +112,15 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 }
 
 ```
+
+### Setting
+1. Fonts
+2. Colors
+3. Constants
+4. CustomImageView
+5. StyleGuides
+6. Enums
+
+### Package
+1. `Alamofire` is an HTTP networking library written in Swift.
+2. `KakaoOpenSDK`
