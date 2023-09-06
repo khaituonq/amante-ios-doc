@@ -113,6 +113,13 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 
 ```
 
+### Pages
+- Login (LoginView)
+- Home (HomeView)
+
+### Subview
+- MainBoardBannerView (slider)
+
 ### Setting
 1. Fonts
 2. Colors
