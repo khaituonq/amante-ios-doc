@@ -5,11 +5,12 @@ This app render data from API http://192.168.80.6:3010/v1.0/
 * [Model](#model)
 * [View Model](#view-model)
 * [View](#view)
+* [Page](#pages)
 * [Package](#package)
 * [Setting](#setting)
 
 ### Model 
-Create a structure to defined the type of each data
+Create a structure to determine the type of each data and use it to decode the JSON
 ```
 // This is a model data of banner
 
@@ -114,13 +115,20 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 ```
 
 ### Pages
-- Login (LoginView)
-- Home (HomeView)
+- `Login`
+- `Home` [view components](#home-components)
 
-### Subview
-- MainBoardBannerView (slider)
+#### Home components
+1. `MainBoardBannerView` banner slider
+2. `CategoryCardView` category card item
+3. `ProductCardView` product card item
+4. `PopularkeyWordView` banner keyword slider
+5. `ConceptRoomListView` room slider
+6. `ProductDetailBannerView` banner product slider
+7. `BoardHListView` banner event slider
+8. `FooterView` footer
 
-### Setting
+### Settings
 1. Fonts
 2. Colors
 3. Constants
@@ -128,6 +136,6 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 5. StyleGuides
 6. Enums
 
-### Package
+### Packages
 1. `Alamofire` is an HTTP networking library written in Swift.
 2. `KakaoOpenSDK`
