@@ -5,7 +5,7 @@ This app render data from API http://192.168.80.6:3010/v1.0/
 * [Model](#model)
 * [View Model](#view-model)
 * [View](#view)
-* [Page](#pages)
+* [Screen](#sreen)
 * [Package](#package)
 * [Setting](#setting)
 
@@ -114,19 +114,44 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 
 ```
 
-### Pages
-- `Login`
-- `Home` [view components](#home-components)
+### Screens
+1. `Login`
+2. `Home` [view components](#home-components)
+3. `Category` [view components](#components)
+4. `New product` [view components](#components)
+5. `Best product` [view components](#components)
+5. `Concept room list` [view components](#concept-room-components)
+6. `Campaigns`
+7. `About company`
+8. `Infomation of use view`
+9. `Terms of service`
+10. `Personal data processing`
+11. `Sale` [View components](#sale-components)
+12. `Pet review list`
+13. `Concept room view`
+14. `Write product review`
 
 #### Home components
-1. `MainBoardBannerView` banner slider
-2. `CategoryCardView` category card item
-3. `ProductCardView` product card item
-4. `PopularkeyWordView` banner keyword slider
-5. `ConceptRoomListView` room slider
-6. `ProductDetailBannerView` banner product slider
-7. `BoardHListView` banner event slider
-8. `FooterView` footer
+- `MainBoardBannerView` banner slider
+- `CategoryCardView` category card item
+- `ProductCardView` product card item
+- `PopularkeyWordView` banner keyword slider
+- `ConceptRoomListView` room slider
+- `ProductDetailBannerView` banner product slider
+- `BoardHListView` banner event slider
+- `FooterView` footer
+
+#### Components
+- `CategoryCardView` category card item
+- `ProductCardView` product card item
+
+#### Concept room components
+- `ConceptRoomFilter` filter room 
+
+#### Sale components
+- `HotDealTimer`  
+- `CountdownView`
+
 
 ### Settings
 1. Fonts
@@ -139,3 +164,10 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 ### Packages
 1. `Alamofire` is an HTTP networking library written in Swift.
 2. `KakaoOpenSDK`
+
+### Not yet implemented
+1. Functions: 
+    - Filter: `New Product`, `Best Product`
+    - Timer: `Sale`
+2. Screens: `Concept room list`, `Concept room view`, `Campaigns`, `Pet`,
+ `Pet review list`, `Pet review detail`, `Concept room view`, `Write product review`
