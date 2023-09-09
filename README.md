@@ -5,7 +5,7 @@ This app render data from API http://192.168.80.6:3010/v1.0/
 * [Model](#model)
 * [View Model](#view-model)
 * [View](#view)
-* [Screen](#sreens)
+* [Screen](#screens)
 * [Package](#package)
 * [Setting](#setting)
 
