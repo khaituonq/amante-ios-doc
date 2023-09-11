@@ -152,7 +152,7 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 34. `Register coupon`
 35. `Personal request` (not yet complete)
 36. `Personal request complete`
-37. `Costumer service center` (not yet complete)
+37. `Customer service center` (not yet complete)
 38. `Log out` (not yet complete)
 39. `Withdraw account` (not yet complete)
 40. `Search` (not yet complete)
