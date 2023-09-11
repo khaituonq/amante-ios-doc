@@ -115,7 +115,7 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 ```
 
 ### Screens
-1. `Login`
+1. `Login` (not yet complete)
 2. `Home` [view components](#home-components) 
 3. `Category` [view components](#components)
 4. `New product` [view components](#components)
@@ -150,7 +150,19 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 32. `My coupon`
 33. `Recently seen products` (not yet complete)
 34. `Register coupon`
-35. `Personal request`
+35. `Personal request` (not yet complete)
+36. `Personal request complete`
+37. `Costumer service center` (not yet complete)
+38. `Log out` (not yet complete)
+39. `Withdraw account` (not yet complete)
+40. `Search` (not yet complete)
+41. `Search results` (not yet complete)
+42. `Cart` (not yet complete)
+43. `Payment` (not yet complete)
+44. `Payment complete` (not yet complete)
+45. `Product detail` (not yet complete)
+46. `Find ID complete` (not yet complete)
+47. `Register` (not yet complete)
 
 #### Home components
 - `MainBoardBannerView` banner slider
@@ -204,4 +216,5 @@ struct ProductDetailBannerView_Previews: PreviewProvider {
 1. Functions: 
     - Filter: `New Product`, `Best Product`
     - Timer: `Sale`
+    - Login: `Login with Kakao, Login with Naver`
 3. Components: `CommunityCostumerReviewView`
